@@ -1,2 +1,0 @@
-# AulaNoite3
-Exercícios
