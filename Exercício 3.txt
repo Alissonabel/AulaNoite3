@@ -1,0 +1,12 @@
+  var trapezio = "Medidas do Trapézio";
+  int basemaior = 7;
+  int basemenor = 5;
+  int altura = 15;
+  int divido = 2;
+  
+  print("Trapézio\n");
+  print("Base Maior: $basemaior m");
+  print("Base Menor: $basemenor m");
+  print("Altura: $altura m\n");
+  
+  print("Área do Trapézio = ${basemaior + basemenor * altura / divido} m");

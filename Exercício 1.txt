@@ -1,0 +1,15 @@
+  var nome = "Alisson";
+  var sobrenome = "Abel";
+  var idade = 21;
+  var logradouro = "Rua Curitiba";
+  var bairro = "Mathias Velho";
+  var cidade = "Canoas";  
+  var endereconumero = 990;
+  
+  print("NOME:$nome");
+  print("SOBRENOME:$sobrenome");
+  print("IDADE:$idade");
+  print("LOGRADOURO:$logradouro");
+  print("BAIRRO:$bairro");
+  print("CIDADE:$cidade");
+  print("Nº:$endereconumero");

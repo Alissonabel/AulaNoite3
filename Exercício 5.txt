@@ -1,0 +1,27 @@
+//COMPARAÇÃO 1
+
+  var titulo1 = "Comparação 1";
+  var name1 = "Aline";
+  var name2 = "Aline";
+  
+  print("$titulo1\n");
+  if (name1 == name2){
+    print("É a mesma pessoa!\n");
+   }
+   else if (name1 != name2){
+    print("Os nomes não conferem!\n");
+   }
+
+//COMPARAÇÃO 2
+
+var titulo2 = "Comparação 2";
+  var name3 = "Marcos";
+  var name4 = "Aline";
+  
+  print("$titulo2\n");
+  if (name3 == name4){
+    print("É a mesma pessoa!");
+  }
+  else if (name3 != name4){  
+    print("Os nomes não conferem!");
+  }

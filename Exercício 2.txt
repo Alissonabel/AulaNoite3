@@ -1,0 +1,8 @@
+  var valordoingresso = 10;
+  var numerodepessoas = 4;
+  var nomedofilme = "Velozes e Furiosos 9";
+  
+  print("Filme: $nomedofilme\n");
+  print("Valor de cada ingresso: $valordoingresso reais");
+  print("Número de ingressos solicitados: $numerodepessoas");
+  print("O valor total da compra dos ingressos é ${numerodepessoas * valordoingresso} reias");
