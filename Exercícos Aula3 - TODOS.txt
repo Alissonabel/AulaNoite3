@@ -1,0 +1,91 @@
+EXERCÍCIO "1"  
+
+  var nome = "Alisson";
+  var sobrenome = "Abel";
+  var idade = 21;
+  var logradouro = "Rua Curitiba";
+  var bairro = "Mathias Velho";
+  var cidade = "Canoas";  
+  var endereconumero = 990;
+  
+  print("NOME:$nome");
+  print("SOBRENOME:$sobrenome");
+  print("IDADE:$idade");
+  print("LOGRADOURO:$logradouro");
+  print("BAIRRO:$bairro");
+  print("CIDADE:$cidade");
+  print("Nº:$endereconumero");
+ ------------------------------------------------
+EXERCÍCIO "2"
+  
+  var valordoingresso = 10;
+  var numerodepessoas = 4;
+  var nomedofilme = "Velozes e Furiosos 9";
+  
+  print("Filme: $nomedofilme\n");
+  print("Valor de cada ingresso: $valordoingresso reais");
+  print("Número de ingressos solicitados: $numerodepessoas");
+  print("O valor total da compra dos ingressos é ${numerodepessoas * valordoingresso} reias");
+
+-------------------------------------------------
+EXERCÍCIOS "3"
+ 
+  var trapezio = "Medidas do Trapézio";
+  int basemaior = 7;
+  int basemenor = 5;
+  int altura = 15;
+  int divido = 2;
+  
+  print("Trapézio\n");
+  print("Base Maior: $basemaior m");
+  print("Base Menor: $basemenor m");
+  print("Altura: $altura m\n");
+  
+  print("Área do Trapézio = ${basemaior + basemenor * altura / divido} m");
+-------------------------------------------------
+EXERCÍCIO "4"
+
+  var quadrado = "Medidas de um Quadrado";
+  
+  int lateral1 = 5;
+  int lateral2 = 5;
+  int basebaixo = 5;
+  int basecima = 5;
+  
+  print("$quadrado\n");
+  print("Lateral esquerda: $lateral1 cm");
+  print("Lateral direita: $lateral2 cm");
+  print("Base de baixo: $basebaixo cm");
+  print("Base de cima: $basecima cm\n");
+  
+  print("Área total do quadrado: ${lateral1 * lateral2} cm²");
+-------------------------------------------------
+EXERCÍCIO "5"
+
+COMPARAÇÃO 1:
+
+  var titulo1 = "Comparação 1";
+  var name1 = "Aline";
+  var name2 = "Aline";
+  
+  print("$titulo1\n");
+  if (name1 == name2){
+    print("É a mesma pessoa!\n");
+   }
+   else if (name1 != name2){
+    print("Os nomes não conferem!\n");
+   }
+
+COMPARAÇÃO 2:
+
+  var titulo2 = "Comparação 2";
+  var name3 = "Marcos";
+  var name4 = "Aline";
+  
+  print("$titulo2\n");
+  if (name3 == name4){
+    print("É a mesma pessoa!");
+  }
+  else if (name3 != name4){  
+    print("Os nomes não conferem!");
+  }
